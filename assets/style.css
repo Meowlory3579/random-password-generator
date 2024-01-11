@@ -93,6 +93,11 @@ button[disabled] {
   background: #c0c7cf;
 }
 
+/*button {
+  cursor: default;
+  background: #c0c7cf;
+}*/
+
 .float-right {
   float: right;
 }
