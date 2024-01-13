@@ -19,7 +19,8 @@ GIVEN I need a new, secure password
 * WHEN the password is generated, THEN the password is either displayed in an alert or written to the page.  
 
 
-## The following image demonstrates the web application's appearance and functionality
+## The following video demonstrates the web application's appearance and functionality
+![Webpage titled "Password Generator" featuring a link named "Generate Password" which can be used to dynamically generate a password, based on user inputs.](https://github.com/Meowlory3579/random-password-generator/blob/main/assets/images/ezgif-7-80c2f64d7d.gif)
 
 
 ## Link to Deployed Application
