@@ -4,7 +4,6 @@ var includeLowercase = null;
 var includeUppercase = null;
 var includeNumeric = null;
 var includeSymbols = null;
-var confirmSelections = '';
 // End: create variables for user selections
 
 
@@ -39,7 +38,7 @@ function generatePassword () {
     return null;
   } 
 
-  // Build new array based on options the user selects
+  // Add user selections to options array
   if (includeLowercase) {
     options.push(...lowercase);
   }
@@ -74,9 +73,7 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
-
 }
 
 // Add event listener to generate button
